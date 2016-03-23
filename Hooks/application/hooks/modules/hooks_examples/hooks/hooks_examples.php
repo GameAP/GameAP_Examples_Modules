@@ -15,6 +15,7 @@ class GH_Hooks_examples extends \Gameap_hooks {
     // -----------------------------------------------------------------
     
     /**
+     * Хук перед удалением игрового сервера
      * Будет выведен массив с ID сервера array('server_id' => ???)
      */
     public function pre_server_delete($params)
@@ -25,6 +26,7 @@ class GH_Hooks_examples extends \Gameap_hooks {
     // -----------------------------------------------------------------
 
     /**
+     * Хук после удаления игрового сервера
      * Будет выведен массив с ID сервера array('server_id' => ???)
      */
     public function post_server_delete($params)
@@ -35,6 +37,7 @@ class GH_Hooks_examples extends \Gameap_hooks {
     // -----------------------------------------------------------------
 
     /**
+     * Хук перед редактированием игрового сервера
      * Перед редактированием имя сервера будет изменено на "Changed name"
      */
     public function pre_server_edit($params)
