@@ -1,0 +1,5 @@
+[
+    ["pre_server_delete", "hooks_examples/pre_server_delete"],
+    ["post_server_delete", "hooks_examples/post_server_delete"],
+    ["pre_server_edit", "hooks_examples/pre_server_edit"]
+]
